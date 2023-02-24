@@ -16,6 +16,12 @@ console.log(numbers);
 // TO add, replace or remove elements at the  middle or any position of an array we use the splice method
 
 const months = ['Jan', 'March', 'April', 'June']
-// months.splice (1, 0, 'Feb');  //1 = start position, 0 = delete count (zero means delete nothing), Feb = the element added
+console.log(months);
+months.splice (1, 0, 'Feb');  //1 = start position, 0 = delete count (zero means delete nothing), Feb = the element added
 //inserts at index 1
+console.log(months); 
+// Expected output: Array ['Jan', 'March', 'April', 'June']
+
+months.splice(4, 1, 'May');
+// replaces 1 element at index 4
 console.log(months);
