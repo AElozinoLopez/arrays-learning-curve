@@ -9,6 +9,7 @@ numbers.push (7)
 
 
 // Use unshift method to add elements to the beginning of the array
-numbers.unshift (1)
+numbers.unshift (1, 2)
+
 
 console.log(numbers);
