@@ -42,3 +42,8 @@ console.log(beasts.indexOf('tony'));
 const numbers = [1, 2, 3, 4];
 
 console.log(numbers.indexOf('a'));
+
+
+// lastindexOf method - used to return the last index of a given element or -1 if it doesn't exist
+const counters = [1, 2, 3, 3, 4, 3, 5, 6];
+console.log(counters.indexOf(3));
