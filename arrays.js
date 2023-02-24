@@ -25,3 +25,7 @@ console.log(months);
 months.splice(4, 1, 'May');
 // replaces 1 element at index 4
 console.log(months);
+
+months.splice(4, 2, 'July' );
+//deletes elemets at index 4 and 5 and adds July at index 4
+console.log(months);
