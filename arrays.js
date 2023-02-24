@@ -33,7 +33,7 @@ console.log(months);
 // Finding Elements in An Array
 // The indexOf() method is used. And this also depends on wether you are dealing with primitives or reference types.
 const numbero = [1, 2, 3, 4];
-console.log(numbero.indexOf(3)); 
+console.log(numbero.indexOf('b')); 
 
 const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 
