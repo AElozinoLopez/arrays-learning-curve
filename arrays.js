@@ -22,7 +22,7 @@ months.splice (1, 0, 'Feb');  //1 = start position, 0 = delete count (zero means
 console.log(months); 
 // Expected output: Array ['Jan', 'March', 'April', 'June']
 
-months.splice(4, 1, 'May');
+months.splice(4, 1, 'May', 'Aug');
 // replaces 1 element at index 4
 console.log(months);
 
