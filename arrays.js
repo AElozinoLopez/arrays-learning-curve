@@ -51,4 +51,4 @@ console.log(counters.lastIndexOf(3));  //this should return 5
 // NB : To check if a given element eg number, exists in an array, do the below:
 
 const cart = [1, 2, 3, 1, 4];
-console.log(cart.indexOf(1));
+console.log(cart.indexOf(1) !== -1);
