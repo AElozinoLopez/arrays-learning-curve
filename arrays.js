@@ -47,3 +47,8 @@ console.log(numbers.indexOf('a'));
 // lastindexOf method - used to return the last index of a given element or -1 if it doesn't exist
 const counters = [1, 2, 3, 3, 4, 3, 5, 6];
 console.log(counters.lastIndexOf(3));  //this should return 5
+
+// NB : To check if a given element eg number, exists in an array, do the below:
+
+const cart = [1, 2, 3, 1, 4];
+console.log(cart.indexOf(1));
