@@ -4,6 +4,6 @@
 // This is done by using the push method
 const numbers = [3,4];
 
-numbers.push = (5,6)
+numbers.push (5,6)
 console.log(numbers);
 
