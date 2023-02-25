@@ -64,11 +64,13 @@ console.log(azidaji.indexOf(2, 1));
 // Finding an element (reference type). 
 // Use the find() method
 // Example1
-// const courses = [
-//     {id: 1, name: 'mth101'},
-//     {id: 2, name: 'chm101'},
-// ];
-// console.log(courses.find());
+const courses = [
+    {id: 1, name: 'mth101'},
+    {id: 2, name: 'chm101'},
+];
+const course = courses.find(function(course){
+    return course.name === 'mth101'
+});
 
 // Example 2
 const array1 = [5, 12, 8, 130, 44];
