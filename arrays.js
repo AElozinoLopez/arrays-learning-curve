@@ -196,7 +196,7 @@ console.log(sliceLibrary);
 
 // THE SPREAD OPERATOR
 // This is used to combine arrays, combine and add new elements to a new array, and 'clone' an array"
-const spreadOnLibrary = [...books, ...titles];
+const spreadOnLibrary = [...books, 'Gifts of The Spirit', ...titles];
 console.log(spreadOnLibrary);
 
 const spreadOnLibraryNew = [...spreadOnLibrary];
