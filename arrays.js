@@ -167,3 +167,5 @@ const secondArray = [5, 6, 7, 8];
 const combinedArray = firstArray.concat(secondArray);
 
 console.log(combinedArray);
+console.log(firstArray);
+console.log(secondArray);
