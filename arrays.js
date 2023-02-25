@@ -60,3 +60,11 @@ console.log(cart.includes('RoseMary'));
 // Using the second parameter of the indexOf methods
 const azidaji = [1, 2, 3, 4, 5];
 console.log(azidaji.indexOf(2, 1));
+
+// Finding an element (reference type). 
+// Use the find() method
+const courses = [
+    {id: 1, name: 'mth101'},
+    {id: 2, name: 'chm101'},
+];
+console.log(courses.find());
