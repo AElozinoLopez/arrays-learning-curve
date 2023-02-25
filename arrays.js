@@ -224,3 +224,13 @@ banks.forEach((bank) => console.log(bank));
 // elements alongside the properties.
 
 banks.forEach((bank, index) => console.log(index, bank));
+
+// Using the for...of loop doesn't give the index. To get the index, use the for...in loop
+
+
+// JOINING ARRAYS
+// The join() method is used to join arrays. It takes a seperator 
+
+const alphabets = [2,3,4,5,6,7];
+alphabets.join('-');
+console.log(alphabets);
