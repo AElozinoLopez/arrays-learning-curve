@@ -72,6 +72,8 @@ const course = courses.find(function(course){
     return course.name === 'mth101'
 });
 
+console.log(course);
+
 // Example 2
 const array1 = [5, 12, 8, 130, 44];
 
