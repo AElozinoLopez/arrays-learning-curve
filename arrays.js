@@ -139,7 +139,8 @@ let musicalInstruments = ['keyboard', 'guitar', 'maracas'];
 let melodyInstruments = musicalInstruments;
 
 musicalInstruments = [];
-// console.log(musicalInstruments);
+console.log(musicalInstruments);
+console.log(melodyInstruments);
 
 // 2. Set the length of the array to zero
 
