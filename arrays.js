@@ -152,3 +152,18 @@ console.log(melodyInstruments);
 // 3. Use of the splice method
 musicalInstruments.splice(0, musicalInstruments.length);
 console.log(musicalInstruments);
+
+// 4. Use the pop method
+// the while loop is used here  // very bad idea for large arrays
+
+
+// COMBINING AND SLICING ARRAYS
+// The concat() method is used to combine arrays. It takes the value of the first array and
+// the second and add them to a new array. Thus, the initial arrays remain intact.
+
+const firstArray = [1, 2, 3, 4];
+const secondArray = [5, 6, 7, 8];
+
+const combinedArray = firstArray.concat(second);
+
+console.log(combinedArray);
