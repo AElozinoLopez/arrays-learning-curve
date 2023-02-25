@@ -115,3 +115,4 @@ console.log(student);
 
 const numerals = [1, 2, 3, 4, 5];
 console.log(numerals.pop());
+console.log(numerals);
