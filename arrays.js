@@ -55,3 +55,8 @@ console.log(cart.indexOf(5) !== -1);
 
 // A better way of checking is by using the includes() method
 console.log(cart.includes('RoseMary'));
+
+
+// Using the second parameter of the indexOf methods
+const azidaji = [1, 2, 3, 4, 5];
+console.log(azidaji.indexOf(2));
