@@ -95,7 +95,11 @@ const students = [
 ];
 
 // predicate function
-const student = students.find(function(student){
-    return student.name ===  'Joshua'
-});
+// const student = students.find(function(student){
+    // return student.name ===  'Joshua'
+// });
+
+// Arrow function
+const student = students.find(element => element === student.name)
+
 console.log(student);
