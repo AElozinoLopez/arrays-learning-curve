@@ -119,4 +119,4 @@ console.log(numerals.pop());
 console.log(numerals);
 
 // shift() method  // to remove element from the beginning of an array
-console.log(numerals.shift);
+console.log(numerals.shift());
