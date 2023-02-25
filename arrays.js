@@ -169,3 +169,11 @@ const combinedArray = firstArray.concat(secondArray);
 console.log(combinedArray);
 console.log(firstArray);
 console.log(secondArray);
+
+
+// SLICING
+// The slice method is used to return a copy of an array. It has a start and end value. It can also
+// use negative indexing
+
+const slice = combinedArray.slice(2, 5);
+console.log(slice);   //returns [3, 4, 5]
