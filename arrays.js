@@ -219,3 +219,8 @@ banks.forEach(function(bank) {
 
 // using arrow function on the forEach 
 banks.forEach((bank) => console.log(bank));
+
+// NB: the forEach loop also takes a second parameter called index which returns the index of the 
+// elements alongside the properties.
+
+banks.forEach((bank, index) => console.log(index, bank));
