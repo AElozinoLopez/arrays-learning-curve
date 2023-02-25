@@ -136,5 +136,14 @@ console.log(list);
 // Also, not to be used if another object is pointing to the same array
 
 let musicalInstruments = ['keyboard', 'guitar', 'maracas'];
+let melodyInstruments = musicalInstruments;
+
 musicalInstruments = [];
+// console.log(musicalInstruments);
+
+// 2. Set the length of the array to zero
+
+musicalInstruments.length = 0;
+
 console.log(musicalInstruments);
+console.log(melodyInstruments);
