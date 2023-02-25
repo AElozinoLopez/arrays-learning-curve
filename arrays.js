@@ -184,6 +184,12 @@ const books = [{id: 1}];
 const titles = ['Think Twice', 'Great Nigeria', '5am Club'];
 
 const library = books.concat(titles);
+// this returns: [{id: 1}, 'Think Twice', 'Great Nigeria', '5am Club']
+
+const sliceLibrary = library.slice();
+
+books[0].id = 8;
 
 console.log(library);
+console.log(sliceLibrary);
 
