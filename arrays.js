@@ -85,3 +85,17 @@ const array1 = [5, 12, 8, 130, 44];
 
 const found = array1.find(element => element > 10);
 console.log(found);
+
+// Predicate function vs Arrow function
+
+const students = [
+    {name: 'Joshua', gender: 'Male', age: 45},
+    {name: 'Faith', gender: 'Female', age: 24},
+    {name: 'Gloria', gender: 'Female', age: 31}
+];
+
+// predicate function
+const student = students.find(function(student){
+    return student.name ===  'Joshua'
+});
+console.log(student);
