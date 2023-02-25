@@ -120,3 +120,8 @@ console.log(numerals);
 
 // shift() method  // to remove element from the beginning of an array
 console.log(numerals.shift());
+
+// splice()  // used to remove or element(s) from/to an array
+const list = ['rice', 'beans', 'garri', 'milk', 'milo', 'handset'];
+list.splice(2, 1);
+console.log(list);
