@@ -59,4 +59,4 @@ console.log(cart.includes('RoseMary'));
 
 // Using the second parameter of the indexOf methods
 const azidaji = [1, 2, 3, 4, 5];
-console.log(azidaji.indexOf(2));
+console.log(azidaji.indexOf(2, 1));
