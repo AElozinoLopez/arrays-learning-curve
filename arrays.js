@@ -124,4 +124,5 @@ console.log(numerals.shift());
 // splice()  // used to remove or element(s) from/to an array
 const list = ['rice', 'beans', 'garri', 'milk', 'milo', 'handset'];
 list.splice(2, 1);
+list.splice(3, 0, 'Bornvita');
 console.log(list);
