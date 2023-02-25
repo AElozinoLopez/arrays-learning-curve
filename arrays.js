@@ -108,3 +108,10 @@ const students = [
 const student = students.find(student => student.name === 'Gloria');
 
 console.log(student);
+
+
+// REMOVING ELEMENTS
+// pop() method
+
+const numerals = [1, 2, 3, 4, 5];
+console.log(numerals.pop());
