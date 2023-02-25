@@ -199,3 +199,6 @@ console.log(sliceLibrary);
 const spreadOnLibrary = [...books, ...titles];
 console.log(spreadOnLibrary);
 
+const spreadOnLibraryNew = [...spreadOnLibrary];
+console.log(spreadOnLibraryNew);
+
