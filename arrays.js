@@ -147,3 +147,7 @@ musicalInstruments.length = 0;
 
 console.log(musicalInstruments);
 console.log(melodyInstruments);
+
+// 3. Use of the splice method
+musicalInstruments.splice(0, musicalInstruments.length);
+console.log(musicalInstruments);
