@@ -111,8 +111,12 @@ console.log(student);
 
 
 // REMOVING ELEMENTS
-// pop() method
+// pop() method // to remove element form the end of an array
 
 const numerals = [1, 2, 3, 4, 5];
+numerals.pop();
 console.log(numerals.pop());
 console.log(numerals);
+
+// shift() method  // to remove element from the beginning of an array
+console.log(numerals.shift);
