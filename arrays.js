@@ -232,5 +232,6 @@ banks.forEach((bank, index) => console.log(index, bank));
 // The join() method is used to join arrays. It takes a seperator 
 
 const alphabets = [2,3,4,5,6,7];
-alphabets.join('-');
-console.log(alphabets);
+
+const joinedAlphabets = alphabets.join('-');
+console.log(joinedAlphabets);
