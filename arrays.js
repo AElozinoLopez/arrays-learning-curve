@@ -136,5 +136,5 @@ console.log(list);
 // Also, not to be used if another object is pointing to the same array
 
 let musicalInstruments = ['keyboard', 'guitar', 'maracas'];
-let musicalInstruments = [];
-console.log(musical);
+musicalInstruments = [];
+console.log(musicalInstruments);
