@@ -202,3 +202,14 @@ console.log(spreadOnLibrary);
 const spreadOnLibraryNew = [...spreadOnLibrary];
 console.log(spreadOnLibraryNew);
 
+
+// ITERATING AN ARRAY
+// We can use the for...of loop
+const banks = ['gtb', 'uba', 'fcmb'];
+
+// using for...of loop
+for (let bank of banks) {
+    console.log(bank)
+}
+
+
