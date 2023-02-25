@@ -100,6 +100,6 @@ const students = [
 // });
 
 // Arrow function
-const student = students.find(element => element === student.name)
+const student = students.find(student => student === student.name)
 
 console.log(student);
