@@ -212,4 +212,10 @@ for (let bank of banks) {
     console.log(bank)
 }
 
+// using the forEach method
+banks.forEach(function(bank) {
+    console.log('using forEach', bank)
+})
 
+// using arrow function on the forEach 
+banks.forEach((bank) => console.log(bank));
