@@ -126,3 +126,15 @@ const list = ['rice', 'beans', 'garri', 'milk', 'milo', 'handset'];
 list.splice(2, 1);
 list.splice(3, 0, 'Bornvita');
 console.log(list);
+
+
+// EMPTYING AN ARRAY
+// There ae 4 ways to do this
+
+// 1. REassign the array  to an empty array
+// To use this, the variable declaration must be the let keyword.
+// Also, not to be used if another object is pointing to the same array
+
+let musicalInstruments = ['keyboard', 'guitar', 'maracas'];
+let musicalInstruments = [];
+console.log(musical);
