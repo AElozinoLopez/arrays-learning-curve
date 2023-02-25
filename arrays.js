@@ -100,8 +100,11 @@ const students = [
 // });
 
 // Arrow function
-const student = students.find(student => {
-    return student.name
-})
+// const student = students.find(student => {
+//     return student.name
+// })
+
+// Since our function is a one-liner, we can further modify the syntax as below:
+const student = students.find(student => student.name === 'Gloria');
 
 console.log(student);
