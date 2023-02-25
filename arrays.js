@@ -74,6 +74,12 @@ const course = courses.find(function(course){
 
 console.log(course);
 
+// TO find the index of an element in an array, we use the findIndex() method
+const coursay = courses.findIndex(function(coursay){
+    return coursay.name === 'xyz'
+});
+console.log(coursay);
+
 // Example 2
 const array1 = [5, 12, 8, 130, 44];
 
