@@ -52,3 +52,6 @@ console.log(counters.lastIndexOf(3));  //this should return 5
 
 const cart = [1, 2, 3, 1, 4];
 console.log(cart.indexOf(5) !== -1);
+
+// A better way of checking is by using the includes() method
+console.log(cart.includes('RoseMary'));
