@@ -229,9 +229,23 @@ banks.forEach((bank, index) => console.log(index, bank));
 
 
 // JOINING ARRAYS
-// The join() method is used to join arrays. It takes a seperator 
+// The join() method is used to join arrays. It takes a separator 
 
 const alphabets = [2,3,4,5,6,7];
 
-const joinedAlphabets = alphabets.join('-');
-console.log(joinedAlphabets);
+// const joinedAlphabets = alphabets.join('-');
+// console.log(joinedAlphabets);
+
+// SPLIT METHOD
+// The split() method is not an array method but a string method
+// The split method returns an array
+
+const split = alphabets.split('');
+console.log(split);
+
+// Using another array to test the split method
+const test = [1,2,3,4,5];
+console.log(test);
+
+const splitTest = test.split('%');
+console.log(splitTest);
