@@ -240,12 +240,20 @@ const alphabets = [2,3,4,5,6,7];
 // The split() method is not an array method but a string method
 // The split method returns an array
 
-const split = alphabets.split('');
-console.log(split);
+// const split = alphabets.split('');
+// console.log(split);
 
 // Using another array to test the split method
 const test = [1,2,3,4,5];
 console.log(test);
 
-const splitTest = test.split('%');
-console.log(splitTest);
+const joinTest = test.join('-');
+console.log(joinTest);
+
+// const splitTest = test.split('%');
+// console.log(splitTest);
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+const words = str.split(' ');
+console.log(words[3]);
