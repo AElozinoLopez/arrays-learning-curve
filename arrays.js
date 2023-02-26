@@ -252,8 +252,13 @@ console.log(test);
 const splitTest = test.split(' ');
 console.log(splitTest);
 
-const joinTest = test.join('-');
+const joinTest = splitTest.join('%');
 console.log(joinTest);
+
+// NB: The "TypeError: join is not a function" occurs when we call the
+// join() method on a value that is not an array. 
+
+// The combination of split and join is mostly used for url slug
 
 
 
