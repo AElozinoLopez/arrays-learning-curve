@@ -244,7 +244,7 @@ const alphabets = [2,3,4,5,6,7];
 // console.log(split);
 
 // Using another array to test the split method
-const test = [1,2,3,4,5];
+const test = [1, 2, 3, 'a', 'b', 4,5];
 console.log(test);
 
 const joinTest = test.join('-');
