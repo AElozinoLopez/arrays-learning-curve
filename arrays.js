@@ -244,14 +244,18 @@ const alphabets = [2,3,4,5,6,7];
 // console.log(split);
 
 // Using another array to test the split method
-const test = [1, 2, 3, 'a', 'b', 4,5];
+const test = "The TypeError: split is not a function occurs if we call a split() method on the value that is not of a type string.";
+
+
 console.log(test);
+
+const splitTest = test.split(' ');
+console.log(splitTest);
 
 const joinTest = test.join('-');
 console.log(joinTest);
 
-// const splitTest = test.split('%');
-// console.log(splitTest);
+
 
 const str = 'The quick brown fox jumps over the lazy dog.';
 
