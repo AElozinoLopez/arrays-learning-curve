@@ -266,3 +266,13 @@ const str = 'The quick brown fox jumps over the lazy dog.';
 
 const words = str.split(' ');
 console.log(words[3]);
+
+
+// SORTING ARRAYS
+// This is done using the sort() method
+// This helps to sort the elements in an array
+
+const sortExample = [3,2,4,1];
+sortExample.sort();
+
+console.log(sortExample);
