@@ -271,8 +271,30 @@ console.log(words[3]);
 // SORTING ARRAYS
 // This is done using the sort() method
 // This helps to sort the elements in an array
+// For primitives
 
 const sortExample = [3,2,4,1];
 sortExample.sort();
 
 console.log(sortExample);
+
+// TO REVERSE the order, we use the reverse method() // 
+sortExample.sort().reverse();
+console.log(sortExample);
+
+
+// For Array of objects  // This uses a function that takes two parameters
+const theCourses = [
+    {id: 1, name: Node.js},
+    {id: 1, name: Javascript}
+];
+
+theCourses.sort(function(a, b) {
+    // if a > b return 1
+    // if a < b return -1
+    // if a === b return 0
+    if (a.name > b.name) return 1;
+    if (a.name < b.name) return -1;
+    return 0;
+});
+console.log(theCourses);
