@@ -306,3 +306,18 @@ theCourses.sort((a,b) => {
     return 0;
 })
 console.log(theCourses);
+
+
+// Sorting an array of objects is case sensitive - refer to ASCII TABLE
+// So, if one of the elements is declared in lower case and the other in upper case, 
+// to override the case sensitivity when sorting, the below syntax should apply
+
+theCourses.sort((a, b) => {
+    const nameA = a.name.toLocaleUpperCase;
+    const nameB = b.name.toLocaleUpperCase;
+
+    if(nameA > nameB) return 1;
+    if(nameA < nameB) return -1;
+    return 0;
+})
+console.log(theCourses);
