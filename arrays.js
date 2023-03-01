@@ -356,3 +356,14 @@ const filtered = testPositivity.filter(function(value) {
     return value >= 0
 });
 console.log(filtered);
+
+// ARRAY FILTER EXERCISES
+
+// 1. Given an array of numbers, return a new array that has only the numbers that are 5 or greater.
+function fiveAndGreaterOnly(arr) {
+    const filtered = fiveAndGreaterOnly(function(arr) {
+        return filtered >= 5
+    })
+  }
+  // test
+  console.log(fiveAndGreaterOnly([3, 6, 8, 2]));
