@@ -339,3 +339,10 @@ const allPositiveNumbers = testNumbers.every(function(value) {
     return value >= 0
 });
 console.log(allPositiveNumbers);
+
+// The some method requires that at least one element meets the specified condition
+const testPositivity = [1,-1,2,3,4,5];
+const somePositiveNumbers = testPositivity.some(function(value) {
+    return value >= 0
+});
+console.log(somePositiveNumbers);
