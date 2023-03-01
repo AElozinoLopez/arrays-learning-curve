@@ -313,11 +313,13 @@ console.log(theCourses);
 // to override the case sensitivity when sorting, the below syntax should apply
 
 theCourses.sort((a, b) => {
-    const nameA = a.name.toLocaleUpperCase;
-    const nameB = b.name.toLocaleUpperCase;
+    const nameA = a.name.toLocaleUpperCase;  //you can also use toLowerCase
+    const nameB = b.name.toLocaleUpperCase;  //you can also use toLowerCase
 
-    if(nameA > nameB) return 1;
-    if(nameA < nameB) return -1;
+    if(nameA > nameB) return 1;  //descending order sorting. lines 320 and 321 won't be needed
+    if(nameA < nameB) return -1; //ascending order sorting. it should be the first if statement. others remain
     return 0;
 })
 console.log(theCourses);
+
+// if you have more than 2 objects, the parameters still remains (a, b)
