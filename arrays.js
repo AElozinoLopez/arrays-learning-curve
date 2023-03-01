@@ -329,6 +329,12 @@ console.log(theCourses);
 // The every() and some method are used. Very important methods in java script
 
 const testNumbers = [1,2,3];
-testNumbers.every(function(value, index, array){
-    console.log('Value,' value,  'Index,' index, 'Array, ' array);
+// testNumbers.every(function(value, index, array){
+//     console.log('Value,' value,  'Index,' index, 'Array, ' array);
+// });
+
+// To check if all the numbers are positive
+const allPositiveNumbers = testNumbers.every(function(value) {
+    return value >= 0
 });
+console.log(allPositiveNumbers);
