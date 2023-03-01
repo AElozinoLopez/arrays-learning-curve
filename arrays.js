@@ -345,4 +345,14 @@ const testPositivity = [1,-1,2,3,4,5];
 const somePositiveNumbers = testPositivity.some(function(value) {
     return value >= 0
 });
-console.log(somePositiveNumbers);
+console.log(somePositiveNumbers); 
+
+
+
+// FILTERING AN ARRAY
+// The filter() method is used to fil
+
+const filtered = testPositivity.filter(function(value) {
+    return value >= 0
+});
+console.log(filtered);
