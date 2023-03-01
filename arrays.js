@@ -323,3 +323,12 @@ theCourses.sort((a, b) => {
 console.log(theCourses);
 
 // if you have more than 2 objects, the parameters still remains (a, b)
+
+
+// TESTING THEN ELEMENTS OF AN ARRAY
+// The every() and some method are used. Very important methods in java script
+
+const testNumbers = [1,2,3];
+testNumbers.every(function(value, index, array){
+    console.log('Value,' value,  'Index,' index, 'Array, ' array);
+});
