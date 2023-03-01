@@ -286,7 +286,7 @@ console.log(sortExample);
 // For Array of objects  // This uses a function that takes two parameters
 const theCourses = [
     {id: 1, name: "Node.js"},
-    {id: 1, name: "Javascript"}
+    {id: 1, name: "javascript"}
 ];
 
 theCourses.sort(function(a, b) {  //callback function
