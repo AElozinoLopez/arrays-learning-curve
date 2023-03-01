@@ -360,8 +360,9 @@ console.log(filtered);
 // ARRAY FILTER EXERCISES
 
 // 1. Given an array of numbers, return a new array that has only the numbers that are 5 or greater.
-// function fiveAndGreaterOnly(arr) {   
-//     return fiveAndGreaterOnly >= 5
+// function fiveAndGreaterOnly(arr) {       
+   
+//     return arr >= 5
 //   }
 //   // test
 //   console.log(fiveAndGreaterOnly([3, 6, 8, 2]));
