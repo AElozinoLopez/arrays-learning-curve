@@ -438,3 +438,7 @@ const numberListMap = numberList.map(function(value) {
     return '<li>' + value + '</li>'
 });
 console.log(numberListMap);
+
+// to join the mapped numbers
+const numberListMapJoin = numberListMap.join('');
+console.log(numberListMapJoin);
