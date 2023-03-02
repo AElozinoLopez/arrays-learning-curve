@@ -372,3 +372,17 @@ console.log(filtered);
     return value >= 5
   })
   console.log(filteredExerciseOne);
+
+//   2) Given an array of numbers, return a new array that only includes the even numbers.
+// function evensOnly(arr) {
+//     return arr % 2 === 0;
+//   }
+//   // test
+//   console.log(evensOnly([3, 6, 8, 2]));
+
+  const evensOnly = [3, 6, 8, 2];
+  const filteredEvensOnly = evensOnly.filter(function(value) {
+    return value % 2 === 0
+  });
+
+  console.log(filteredEvensOnly);
