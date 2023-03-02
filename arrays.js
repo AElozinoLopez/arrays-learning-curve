@@ -449,12 +449,12 @@ console.log(numberListMapJoin);
 // subString(indexStart, indexEnd)
 
 // Application
-const str = 'Mozilla';
+const subStringTest = 'Mozilla';
 
-console.log(str.substring(1, 3));
+console.log(subStringTest.substring(1, 3));
 // Expected output: "oz"
 
-console.log(str.substring(2));
+console.log(subStringTest.substring(2));
 // Expected output: "zilla"
 
 
