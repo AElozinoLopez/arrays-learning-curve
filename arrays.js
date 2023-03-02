@@ -443,6 +443,22 @@ console.log(numberListMap);
 const numberListMapJoin = numberListMap.join('');
 console.log(numberListMapJoin);
 
+// The substring() method returns the part of the string between the start and end indexes, or to the end of the string
+// Syntax
+// subString(indexStart)
+// subString(indexStart, indexEnd)
+
+// Application
+const str = 'Mozilla';
+
+console.log(str.substring(1, 3));
+// Expected output: "oz"
+
+console.log(str.substring(2));
+// Expected output: "zilla"
+
+
+
 
 // MAP EXERCISES
 // 1) Make an array of numbers that are doubles of the first array
