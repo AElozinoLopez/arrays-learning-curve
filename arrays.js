@@ -427,3 +427,14 @@ function ofAge(arr){
   // => 
   //[ { name: 'Angelina Jolie', age: 80 },
   //  { name: 'Bob Ziroll', age: 100 } ]
+
+
+//   MAPPING AN ARRAY
+// This is done using the map() method. This is used to map items of an array to something else. It returns an array
+
+const numberList = [1, -1, 2, 3];
+
+const numberListMap = numberList.map(function(value) {
+    return '<li>' + value + '</li>'
+});
+console.log(numberListMap);
